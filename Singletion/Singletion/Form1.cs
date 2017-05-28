@@ -16,5 +16,13 @@ namespace Singletion
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Konfigurasyon konf = Konfigurasyon.Instance();
+
+            MessageBox.Show(Convert.ToString(konf.MaxKullanici));
+            MessageBox.Show(konf.LogDosyaAdi);
+        }
     }
 }
