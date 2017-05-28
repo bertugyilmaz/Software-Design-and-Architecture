@@ -28,7 +28,7 @@ namespace Factory
             }
             foreach (Algorithm alg in algoritms)
             {
-                MessageBox.Show(alg.Run());
+                MessageBox.Show(alg.Run()); // Çıktı
 
             }
         }
