@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    public abstract class Algorithm
+    public class BubbleSort : Algorithm
     {
-        public abstract string Run();
+        public override string Run()
+        {
+            return "Bubble Sort Çalışıyor";
+        }
     }
 }

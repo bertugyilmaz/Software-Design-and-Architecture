@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Factory
 {
-    public abstract class Algorithm
+    public class SelectionSort : Algorithm
     {
-        public abstract string Run();
+        public override string Run()
+        {
+            return "Selection Sort Çalışıyor";
+        }
     }
 }
