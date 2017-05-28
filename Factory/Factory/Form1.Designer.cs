@@ -28,13 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnFactory = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnFactory
+            // 
+            this.btnFactory.Location = new System.Drawing.Point(81, 123);
+            this.btnFactory.Name = "btnFactory";
+            this.btnFactory.Size = new System.Drawing.Size(173, 25);
+            this.btnFactory.TabIndex = 1;
+            this.btnFactory.Text = "Factory Method Test";
+            this.btnFactory.UseVisualStyleBackColor = true;
+            this.btnFactory.Click += new System.EventHandler(this.btnFactory_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(503, 416);
+            this.ClientSize = new System.Drawing.Size(335, 270);
+            this.Controls.Add(this.btnFactory);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -42,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnFactory;
     }
 }
 
