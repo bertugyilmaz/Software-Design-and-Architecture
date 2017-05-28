@@ -16,5 +16,13 @@ namespace AdapterEx
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SmartPhone sp = new SmartPhone();
+            NanoSIMCard nano = new NanoSIMCard();
+            NanoSIMCardAdapter adp = new NanoSIMCardAdapter(nano);
+            sp.simCardSocket.Insert(adp);
+        }
     }
 }
