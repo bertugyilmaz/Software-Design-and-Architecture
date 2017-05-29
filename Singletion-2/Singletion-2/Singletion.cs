@@ -9,10 +9,10 @@ namespace Singletion_2
     public class Singletion
     {
         private static Singletion instance;
-        protected Singletion() // Constructor protected olmalı!s
+        public int Control { get; set; }
+        protected Singletion() // Constructor protected olmalı!
         {
         }
-
         public static Singletion Instance()
         {
             if (instance == null)
