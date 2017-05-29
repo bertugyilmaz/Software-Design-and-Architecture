@@ -16,5 +16,15 @@ namespace Decarator
         {
             InitializeComponent();
         }
+
+        private void decoratorTestBtn_Click(object sender, EventArgs e)
+        {
+            Widget widget = new BorderDecorator(
+                                new BorderDecorator(
+                                   new ScrollDecorator(
+                                      new TextField(100, 80))));
+
+            MessageBox.Show(widget.draw());
+        }
     }
 }
