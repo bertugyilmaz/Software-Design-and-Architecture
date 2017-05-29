@@ -1,4 +1,4 @@
-﻿namespace Singletion_2
+﻿namespace Decarator
 {
     partial class Form1
     {
@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SingletionTestBtn = new System.Windows.Forms.Button();
+            this.decoratorTestBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // SingletionTestBtn
+            // decoratorTestBtn
             // 
-            this.SingletionTestBtn.Location = new System.Drawing.Point(138, 102);
-            this.SingletionTestBtn.Name = "SingletionTestBtn";
-            this.SingletionTestBtn.Size = new System.Drawing.Size(156, 77);
-            this.SingletionTestBtn.TabIndex = 0;
-            this.SingletionTestBtn.Text = "Singletion Test";
-            this.SingletionTestBtn.UseVisualStyleBackColor = true;
-            this.SingletionTestBtn.Click += new System.EventHandler(this.SingletionTestBtn_Click);
+            this.decoratorTestBtn.Location = new System.Drawing.Point(115, 130);
+            this.decoratorTestBtn.Name = "decoratorTestBtn";
+            this.decoratorTestBtn.Size = new System.Drawing.Size(163, 54);
+            this.decoratorTestBtn.TabIndex = 0;
+            this.decoratorTestBtn.Text = "Decorator Test";
+            this.decoratorTestBtn.UseVisualStyleBackColor = true;
+            this.decoratorTestBtn.Click += new System.EventHandler(this.decoratorTestBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 284);
-            this.Controls.Add(this.SingletionTestBtn);
+            this.ClientSize = new System.Drawing.Size(414, 329);
+            this.Controls.Add(this.decoratorTestBtn);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button SingletionTestBtn;
+        private System.Windows.Forms.Button decoratorTestBtn;
     }
 }
 

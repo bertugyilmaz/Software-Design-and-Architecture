@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C37D675B-2A96-4ECB-938F-393A4478B706}</ProjectGuid>
+    <ProjectGuid>{3B1C9B7A-944A-4429-88FE-9B2BBB131E43}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Singletion_2</RootNamespace>
-    <AssemblyName>Singletion-2</AssemblyName>
+    <RootNamespace>Decarator</RootNamespace>
+    <AssemblyName>Decarator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BorderDecorator.cs" />
+    <Compile Include="Decorator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,7 +56,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singletion.cs" />
+    <Compile Include="ScrollDecorator.cs" />
+    <Compile Include="TextField.cs" />
+    <Compile Include="Widget.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

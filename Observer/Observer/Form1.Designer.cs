@@ -1,4 +1,4 @@
-﻿namespace Singletion_2
+﻿namespace Observer
 {
     partial class Form1
     {
@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SingletionTestBtn = new System.Windows.Forms.Button();
+            this.observerTestBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // SingletionTestBtn
+            // observerTestBtn
             // 
-            this.SingletionTestBtn.Location = new System.Drawing.Point(138, 102);
-            this.SingletionTestBtn.Name = "SingletionTestBtn";
-            this.SingletionTestBtn.Size = new System.Drawing.Size(156, 77);
-            this.SingletionTestBtn.TabIndex = 0;
-            this.SingletionTestBtn.Text = "Singletion Test";
-            this.SingletionTestBtn.UseVisualStyleBackColor = true;
-            this.SingletionTestBtn.Click += new System.EventHandler(this.SingletionTestBtn_Click);
+            this.observerTestBtn.Location = new System.Drawing.Point(210, 175);
+            this.observerTestBtn.Name = "observerTestBtn";
+            this.observerTestBtn.Size = new System.Drawing.Size(92, 56);
+            this.observerTestBtn.TabIndex = 0;
+            this.observerTestBtn.Text = "Observer Test";
+            this.observerTestBtn.UseVisualStyleBackColor = true;
+            this.observerTestBtn.Click += new System.EventHandler(this.observerTestBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(442, 284);
-            this.Controls.Add(this.SingletionTestBtn);
+            this.ClientSize = new System.Drawing.Size(561, 436);
+            this.Controls.Add(this.observerTestBtn);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button SingletionTestBtn;
+        private System.Windows.Forms.Button observerTestBtn;
     }
 }
 
