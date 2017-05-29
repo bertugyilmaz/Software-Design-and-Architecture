@@ -51,6 +51,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gazete.cs" />
+    <Compile Include="Internet.cs" />
+    <Compile Include="IObServer.cs" />
+    <Compile Include="ISubject.cs" />
+    <Compile Include="Kredi.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
