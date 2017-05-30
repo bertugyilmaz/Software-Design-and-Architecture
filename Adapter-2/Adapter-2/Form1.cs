@@ -16,5 +16,13 @@ namespace Adapter_2
         {
             InitializeComponent();
         }
+
+        private void adapterTestBtn_Click(object sender, EventArgs e)
+        {
+            AudioPlayer a = new AudioPlayer();
+
+            a.play("mp3","baba_mrb.mp3");
+            a.play("mp4", "ahmet_fatih_twerk_1080p_canli_izle.mp4");
+        }
     }
 }
