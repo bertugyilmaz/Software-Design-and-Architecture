@@ -11,7 +11,6 @@ namespace Decarator
         public BorderDecorator(Widget w) : base(w)
         {
         }
-
         public override string draw()
         {
             var  a = base.draw();
