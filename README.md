@@ -15,3 +15,8 @@ Adapter - Katalog Bilgisi
 
 -Mevcut bir bileşenin sunduğu cazip işlevsellik nedeniyle kullanılmak istendiği ancak bu bileşenin “dünya görüşünün” geliştirilmekte olan sistemin mimarisiyle ve felsefesiyle uyumlu olmaması durumunda.
 
+>>**UML Diagram :** 
+>><img width="500" alt="Adapter-UML-Diagram" src="https://cloud.githubusercontent.com/assets/23179810/26574222/32e0d182-4529-11e7-81f8-0a12d668e7ee.png">
+
+>>**Sequence Diagram :**
+>><img width="500" alt="Adapter-Sequence-Diagram" src="https://cloud.githubusercontent.com/assets/23179810/26574278/67c21a14-4529-11e7-832c-2754dfad96f8.png">
